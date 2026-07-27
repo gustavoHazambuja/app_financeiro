@@ -20,7 +20,7 @@ def calculcar_saldo():
             saldo += t["valor"]
         else:
             saldo -= t["valor"]    
-        return {"saldo": saldo}
+    return {"saldo": saldo}
 
 
  

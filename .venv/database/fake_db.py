@@ -10,7 +10,7 @@ transacoes = [
     {
         "id": 2,
         "descricao": "Aluguel",
-        "valor": 1800,
+        "valor": 1200,
         "tipo": "saida",
         "categoria": "Moradia"
     }
