@@ -1,3 +1,5 @@
+#CRIANDO AS REGRAS DE NEGÓCIO
+
 from database.fake_db import transacoes
 from models.transacao_model import Transacao
 
@@ -11,7 +13,7 @@ def criar_transacao(transacao: Transacao):
     return transacao
 
 
-def calculcar_transacao():
+def calculcar_saldo():
     saldo = 0
     for t in transacoes:
         if t["tipo"] == "entrada":
